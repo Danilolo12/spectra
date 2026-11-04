@@ -35,7 +35,7 @@ MANIFEST = {
     "redirect_url": f"http://127.0.0.1:{PORT}/callback",
     "hook_attributes": {"url": "https://example.com/github/events", "active": False},
     "default_permissions": {
-        "contents": "read",
+        "contents": "write",
         "metadata": "read",
         "pull_requests": "write",
         "checks": "read",
