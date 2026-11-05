@@ -1,18 +1,25 @@
-# citapp
+# SPECTRA
 
-Agenda y reservas para profesionales independientes que trabajan por citas. El profesional maneja su agenda desde la app móvil y sus clientes reservan desde un link web, sin instalar nada.
+**Satellite Prediction & Edifice Control for Terrain Risk Assessment**
 
-> Nombre provisional. Proyecto en fase de planeación.
+Plataforma de monitoreo del terreno y la infraestructura urbana desde el espacio y desde el suelo. Mide hundimientos y movimientos de laderas, edificios y vías con radar satelital, los cruza con sensores en campo y usa IA para anticipar riesgos y explicarlos.
 
-## Stack previsto
+> Proyecto en fase de planeación.
 
-- App: React Native + Expo (TypeScript)
-- UI: NativeWind + React Native Reusables, con sistema de diseño propio
-- Backend: Supabase (Postgres, Auth, RLS, Edge Functions)
-- Validación: Zod
-- Contratos y pruebas de API: Postman
+## Visión por etapas
+
+1. **Espacio**: radar satelital (InSAR, Sentinel-1) para detectar movimiento del terreno y reportes de riesgo para aseguradoras, bancos y constructoras.
+2. **Suelo**: hardware propio de bajo costo (reflectores de esquina, estaciones GNSS, sensores en estructuras) que valida y afina lo que ve el satélite.
+3. **Cerebro**: gemelo digital, fusión de datos y alerta temprana con agentes de IA.
+4. **Escala**: represas, minas, túneles, metro, oleoductos y otras ciudades de LatAm.
+5. **Estación terrena** propia para recibir datos satelitales directamente.
+
+## Stack
+
+Se define en la fase de arquitectura.
 
 ## Documentación
 
 - `docs/planning-artifacts/`: brief del producto, PRD, UX y arquitectura
 - `docs/implementation-artifacts/`: historias y estado de los sprints
+- Tablero: https://github.com/users/Danilolo12/projects/1
